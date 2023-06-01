@@ -1,7 +1,7 @@
 {
   "name": "lmk",
   "version": "0.1.0",
-  "description": "Nextly Landing Page Template",
+  "description": "Bharosa - Reviews Reimagined",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://gituhb.com/web3templates/nextly-template"
+    "url": "https://github.com/mayankchauhan971/landingPage"
   },
   "keywords": [
     "nextjs",
     "tailwindcss",
     "free"
   ],
-  "author": "Surjith S M",
+  "author": "Mayank Chauhan",
   "license": "ISC",
   "dependencies": {
     "@emotion/css": "^11.10.6",

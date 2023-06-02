@@ -29,8 +29,7 @@ const Home = () => {
       <SectionTitle
         pretitle="Bharosa Benefits"
         title=" Still collecting reviews as screenshots in Instagram stories?">
-        Screenshots of chats are great, but not only are you missing out on the opportunity to 
-        learn from your reviews, you 
+        Screenshots of chats are great, but our AI can analyze your reviews, exactly tell you what you nee
       </SectionTitle>
       <Benefits data={benefitOne} />
       <Benefits imgPos="right" data={benefitTwo} />
@@ -45,8 +44,10 @@ const Home = () => {
       <SectionTitle
         pretitle="Testimonials"
         title="Here's what other creators said">
-        Testimonials is a great way to increase the brand trust and awareness.
-        Use this section to highlight your popular customers.
+        <div className="text-xl text-center text-gray-700 dark:text-white">
+            Trusted by <span className="text-indigo-600">100+</span>{" "}
+            creators, JUST LIKE YOU
+          </div>
       </SectionTitle>
       <Testimonials />
       <SectionTitle pretitle="FAQ" title="Frequently Asked Questions">

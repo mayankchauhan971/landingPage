@@ -5,6 +5,14 @@ import {
   DevicePhoneMobileIcon,
   AdjustmentsHorizontalIcon,
   SunIcon,
+  MegaphoneIcon,
+  PresentationChartLineIcon,
+  ArrowUpIcon,
+  ArrowTrendingUpIcon,
+  ChartPieIcon,
+  CircleStackIcon,
+  LightBulbIcon,
+  TableCellsIcon,
 } from "@heroicons/react/24/solid";
 
 import benefitOneImg from "../public/img/benefit-one.svg";
@@ -12,49 +20,54 @@ import benefitTwoImg from "../public/img/benefit-two.svg";
 
 const benefitOne = {
   title: "Listen to your customers",
-  desc: "You can use this space to highlight your first benefit or a feature of your product. It can also contain an image or Illustration like in the example along with some bullet points.",
+  desc: "Customer feedback fuels online success for creators. Tap into valuable insights, refine your offerings, and forge lasting connections by actively listening to your customers. Elevate your online business with the power of their voices.",
   image: benefitOneImg,
   bullets: [
     {
+      title: "Gather Reviews, Effortlessly",
+      desc: "Getting reviews is as simple as sending a link. Embedd the magic link in your website ",
+      icon: <CircleStackIcon />,
+    },
+    {
+      title: "Manage Customer Data",
+      desc: "No need to go through screenshots and chats for reviews, store reviews centrally with export ability.",
+      icon: <TableCellsIcon />,
+    },
+    {
       title: "Understand your customers",
-      desc: "Then explain the first point breifly in one or two lines.",
-      icon: <FaceSmileIcon />,
-    },
-    {
-      title: "Improve acquisition",
-      desc: "Here you can add the next benefit point.",
-      icon: <ChartBarSquareIcon />,
-    },
-    {
-      title: "Drive customer retention",
-      desc: "This will be your last bullet point in this section.",
-      icon: <CursorArrowRaysIcon />,
+      desc: "Our AI buddy learns from your reviews to tell you exactly what your customers like and dislike.",
+      icon: <LightBulbIcon />,
     },
   ],
 };
 
 const benefitTwo = {
   title: "Showcase their love for you",
-  desc: "You can use this same layout with a flip image to highlight your rest of the benefits of your product. It can also contain an image or Illustration as above section along with some bullet points.",
+  desc: " Customer reviews are the currency of credibility. Elevate your brand by showcasing authentic feedback, building trust, and attracting more customers. Let your customers become your advocates and watch your online business soar.",
   image: benefitTwoImg,
   bullets: [
     {
-      title: "Mobile Responsive Template",
-      desc: "Nextly is designed as a mobile first responsive template.",
-      icon: <DevicePhoneMobileIcon />,
+      title: "Let your customers speak for you",
+      desc: "Show what others loved and let us do the convincing.",
+      icon: <MegaphoneIcon />,
     },
     {
-      title: "Powered by Next.js & TailwindCSS",
-      desc: "This template is powered by latest technologies and tools.",
-      icon: <AdjustmentsHorizontalIcon />,
+      title: "Improve acquisition",
+      desc: "Close sales faster with less time spent and lead management and value realization.",
+      icon: <ArrowTrendingUpIcon />,
     },
     {
-      title: "Dark & Light Mode",
-      desc: "Nextly comes with a zero-config light & dark mode. ",
-      icon: <SunIcon />,
+      title: "Get Analytics",
+      desc: "Keep track of everyone who visits your website to better understand your audience.",
+      icon: <ChartPieIcon />,
     },
   ],
 };
 
 
 export {benefitOne, benefitTwo};
+
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+  <path strokeLinecap="round" strokeLinejoin="round" d="M10.34 15.84c-.688-.06-1.386-.09-2.09-.09H7.5a4.5 4.5 0 110-9h.75c.704 0 1.402-.03 2.09-.09m0 9.18c.253.962.584 1.892.985 2.783.247.55.06 1.21-.463 1.511l-.657.38c-.551.318-1.26.117-1.527-.461a20.845 20.845 0 01-1.44-4.282m3.102.069a18.03 18.03 0 01-.59-4.59c0-1.586.205-3.124.59-4.59m0 9.18a23.848 23.848 0 018.835 2.535M10.34 6.66a23.847 23.847 0 008.835-2.535m0 0A23.74 23.74 0 0018.795 3m.38 1.125a23.91 23.91 0 011.014 5.395m-1.014 8.855c-.118.38-.245.754-.38 1.125m.38-1.125a23.91 23.91 0 001.014-5.395m0-3.46c.495.413.811 1.035.811 1.73 0 .695-.316 1.317-.811 1.73m0-3.46a24.347 24.347 0 010 3.46" />
+</svg>
+

@@ -35,8 +35,8 @@ const Faq = () => {
 
 const faqdata = [
   {
-    question: "What is Bharosa?",
-    answer: "Bharosa is a free simple tool which allows you to collect reviews and create a website to showcase those reviews beautifully and convincingly to convert more potential customers to buy from you.",
+    question: "What is Rately?",
+    answer: "Rately is a free simple tool which allows you to collect reviews and create a website to showcase those reviews beautifully and convincingly to convert more potential customers to buy from you.",
   },
   {
     question: "How does this work?",

@@ -27,7 +27,7 @@ export default function Footer() {
                       height="32"
                       className="w-8"
                     />
-                  <span>Bharosa</span>
+                  <span>Rately</span>
               </Link>
             </div>
 

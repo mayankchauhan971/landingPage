@@ -11,11 +11,12 @@ const Hero = () => {
             <h1 className="text-4xl font-bold leading-snug tracking-tight text-gray-800 lg:text-4xl lg:leading-tight xl:text-6xl xl:leading-tight dark:text-white">
               Reviews
               <br/>
-              Reimagined.
+              Simplified.
             </h1>
             <p className="py-5 text-lg leading-normal text-gray-500 lg:text-lg xl:text-xl dark:text-gray-300">
               Running an online business is hard, but convincing customers need not be.
-              <br/>
+              <br></br>
+              <br></br>
               Listen to your customers, 
               collect reviews from them and showcase their love for you, to the world!
             </p>
@@ -26,7 +27,7 @@ const Hero = () => {
                 target="_blank"
                 rel="noopener"
                 className="px-8 py-4 text-lg font-medium text-center text-white bg-indigo-600 rounded-md ">
-                Try now for Free
+                Collect reviews
               </a>
             </div>
           </div>

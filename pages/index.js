@@ -15,10 +15,10 @@ const Home = () => {
   return (
     <>
       <Head>
-        <title>Bharosa - Collect reviews and listen to your customers</title>
+        <title>Rately - Collect reviews and listen to your customers</title>
         <meta
           name="description"
-          content="Bharosa lets you collect, analyze and show reviews provided by your customers. 
+          content="Rately lets you collect, analyze and show reviews provided by your customers. 
                   Organize them at a central place and get insights into your offerings."
         />
         <link rel="icon" href="/favicon.ico" />
@@ -27,7 +27,7 @@ const Home = () => {
       <Navbar />
       <Hero />
       <SectionTitle
-        pretitle="Bharosa Benefits"
+        pretitle="Rately Benefits"
         title=" Still collecting reviews as screenshots in Instagram stories?">
         Screenshots of chats are great, but our AI can analyze your reviews, exactly tell you what you nee
       </SectionTitle>
@@ -51,7 +51,7 @@ const Home = () => {
       </SectionTitle>
       <Testimonials />
       <SectionTitle pretitle="FAQ" title="Frequently Asked Questions">
-        We know how busy running an online business can be, so we want to make using Bharosa super easy for you.
+        We know how busy running an online business can be, so we want to make using Rately super easy for you.
       </SectionTitle>
       <Faq />
       <Footer />

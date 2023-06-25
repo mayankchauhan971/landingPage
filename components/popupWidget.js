@@ -122,12 +122,12 @@ const PopupWidget = () => {
                       />
                       <input
                         type="hidden"
-                        value={`${userName} sent a message from Rately`}
+                        value={`${userName} sent a message from RevuLink`}
                         {...register("subject")}
                       />
                       <input
                         type="hidden"
-                        value="Rately Template"
+                        value="RevuLink Template"
                         {...register("from_name")}
                       />
                       <input

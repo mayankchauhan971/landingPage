@@ -31,7 +31,7 @@ const Navbar = () => {
                         className="w-8"
                       />
                     </span>
-                    <span>Rately</span>
+                    <span>RevuLink</span>
                   </span>
                 </Link>
 

@@ -1,7 +1,7 @@
 {
   "name": "lmk",
   "version": "0.1.0",
-  "description": "Rately - Reviews Reimagined",
+  "description": "RevuLink - Reviews Reimagined",
   "private": true,
   "scripts": {
     "dev": "next dev",

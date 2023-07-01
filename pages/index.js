@@ -21,15 +21,16 @@ const Home = () => {
           content="RevuLink lets you collect, analyze and show reviews provided by your customers. 
                   Organize them at a central place and get insights into your offerings."
         />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/img/favicon.ico" />
       </Head>
 
       <Navbar />
       <Hero />
       <SectionTitle
-        pretitle="RevuLink Benefits"
-        title=" Still collecting reviews as screenshots in Instagram stories?">
-        Screenshots of chats are great, but our AI can analyze your reviews, exactly tell you what you nee
+        // pretitle="RevuLink Benefits"
+        title=" Still presenting reviews as chat screenshots in Instagram stories?">
+        Screenshots of chats are great, but wouldn't it be better if you could collect reviews, store them securely and use them
+        to create beautiful promotional pages for your business?
       </SectionTitle>
       <Benefits data={benefitOne} />
       <Benefits imgPos="right" data={benefitTwo} />
@@ -41,15 +42,15 @@ const Home = () => {
         don&apos;t forget to add one. Just like this.
       </SectionTitle> */}
       {/* <Video /> */}
-      <SectionTitle
+      {/* <SectionTitle
         pretitle="Testimonials"
         title="Here's what other creators said">
         <div className="text-xl text-center text-gray-700 dark:text-white">
             Trusted by <span className="text-indigo-600">100+</span>{" "}
             creators, JUST LIKE YOU
           </div>
-      </SectionTitle>
-      <Testimonials />
+      </SectionTitle> */}
+      {/* <Testimonials /> */}
       <SectionTitle pretitle="FAQ" title="Frequently Asked Questions">
         We know how busy running an online business can be, so we want to make using RevuLink super easy for you.
       </SectionTitle>

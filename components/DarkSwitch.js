@@ -10,6 +10,7 @@ const ThemeChanger = () => {
 
   if (!mounted) return null;
 
+  onload(setTheme("light"))
   setTheme("light")
   // return (
   //   <div className="flex items-center">

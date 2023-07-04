@@ -15,11 +15,11 @@ export default function Footer() {
   return (
     <div className="relative">
       <Container>
-        <div className="grid max-w-screen-xl grid-cols-1 gap-10 pt-10 mx-auto mt-5 border-t border-gray-100 dark:border-trueGray-700 lg:grid-cols-5">
+        <div className="grid max-w-screen-xl grid-cols-1 gap-10 pt-10 mx-auto mt-5 border-t border-gray-100 lg:grid-cols-5">
           <div className="lg:col-span-2">
             <div>
               {" "}
-              <Link href="/" className="flex items-center space-x-2 text-2xl font-medium text-indigo-500 dark:text-gray-100">
+              <Link href="/" className="flex items-center space-x-2 text-2xl font-medium text-indigo-500">
                     <Image
                       src="/img/logo.svg"
                       alt="N"
@@ -31,7 +31,7 @@ export default function Footer() {
               </Link>
             </div>
 
-            <div className="max-w-md mt-4 text-gray-500 dark:text-gray-400">
+            <div className="max-w-md mt-4 text-gray-500">
               Create a private personalized link to collect reviews from your customers post sales.
               Visualize this data and get actionable insights. Showcase your collected reviews with AI insights
               to help convince future buyers.
@@ -59,7 +59,7 @@ export default function Footer() {
           </div>
           <div className="">
             <div>Follow us</div>
-            <div className="flex mt-5 space-x-5 text-gray-400 dark:text-gray-500">
+            <div className="flex mt-5 space-x-5 text-gray-400">
               {/* <a
                 href="https://twitter.com/"
                 target="_blank"
@@ -85,7 +85,7 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="my-10 text-sm text-center text-gray-600 dark:text-gray-400">
+        <div className="my-10 text-sm text-center text-gray-600 ">
           Copyright © {new Date().getFullYear()}.
         </div>
       </Container>

@@ -2,9 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
-  /* html,
-  body {
-    @apply dark:bg-trueGray-900;
-  } */
+@media (prefers-color-scheme: light) {
+  html {
+    color-scheme: dark;
+  }
 }

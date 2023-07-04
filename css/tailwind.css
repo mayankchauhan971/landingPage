@@ -3,8 +3,7 @@
 @tailwind utilities;
 
 @media (prefers-color-scheme: light) {
-  html,
-  body {
+  html {
     color-scheme: dark;
   }
 }

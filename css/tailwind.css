@@ -5,6 +5,6 @@
 @media (prefers-color-scheme: light) {
   html,
   body {
-    /* @apply dark:bg-trueGray-900; */
+    color-scheme: dark;
   }
 }

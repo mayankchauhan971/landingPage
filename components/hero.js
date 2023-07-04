@@ -32,13 +32,13 @@ const Hero = () => {
           </div>
         </div>
         <div className="flex items-center justify-center w-full lg:w-1/2">
-          <div className="">
+          <div>
             <Image
-              src="/img/heroImg.svg"
+              src="/img/heroImageDark.svg"
               alt="Hero Illustration"
               className={"object-cover"}
-              width="600"
-              height="600"
+              width="2000"
+              height="2000"
               loading="eager"
             />
           </div>

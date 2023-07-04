@@ -34,11 +34,11 @@ const Hero = () => {
         <div className="flex items-center justify-center w-full lg:w-1/2">
           <div className="">
             <Image
-              src="/img/heroImg.svg"
+              src="/img/heroImgDark.svg"
               alt="Hero Illustration"
               className={"object-cover"}
-              width="600"
-              height="600"
+              width="1000"
+              height="1000"
               loading="eager"
             />
           </div>

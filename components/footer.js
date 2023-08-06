@@ -35,7 +35,7 @@ export default function Footer() {
               Create a private personalized link to collect reviews from your customers post sales.
               Visualize this data and get actionable insights. Showcase your collected reviews with AI insights
               to help convince future buyers.
-              <br/>
+              <br></br>
               <a href="https://revulink.me/terms/condition#tnc" target="_blank">Terms & Conditions</a>
             </div>
           </div>

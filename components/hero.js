@@ -17,7 +17,7 @@ const Hero = () => {
               Running an online business is hard, but convincing customers need not be.
               <br></br>
               <br></br>
-              Collect reviews, listen to your customers and leverage social proof to convert browsers into buyers.
+              Collect and analyze reviews, listen to your customers and leverage social proof to convert browsers into buyers.
             </p>
 
             <div className="flex flex-col items-start space-y-3 sm:space-x-4 sm:space-y-0 sm:items-center sm:flex-row">

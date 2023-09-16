@@ -36,7 +36,7 @@ const Faq = () => {
 const faqdata = [
   {
     question: "What is RevuLink?",
-    answer: "RevuLink is a free simple tool which allows you to collect reviews and create a website to showcase those reviews beautifully and convincingly to convert more potential customers to buy from you.",
+    answer: "RevuLink is a free simple tool which allows you to collect reviews and create a website to showcase those reviews beautifully and convincingly. Add this website to your Link in Bio to convince more potential customers to buy from you.",
   },
   {
     question: "How does this work?",

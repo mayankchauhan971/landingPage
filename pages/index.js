@@ -28,9 +28,10 @@ const Home = () => {
       <Hero />
       <SectionTitle
         // pretitle="RevuLink Benefits"
-        title=" Still presenting reviews as chat screenshots in Instagram stories?">
-        Screenshots of chats are great, but wouldn't it be better if you could collect reviews, store them securely and use them
-        to create beautiful promotional pages for your business?
+        title=" Still using chat screenshots in Instagram stories for reviews?">
+        Chat screenshots are great at telling how a single customer felt about your product or service. <br/>
+        But when we look for reviews, we look for number of reviews and average rating to understand how most people felt about your offerings. <br/>
+        This is what RevuLink allows you to do, collect, store and analyze reviews and create a promotional page for yourself with these reviews. Simple.
       </SectionTitle>
       <Benefits data={benefitOne} />
       <Benefits imgPos="right" data={benefitTwo} />

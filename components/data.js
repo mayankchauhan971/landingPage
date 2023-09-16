@@ -20,7 +20,7 @@ import benefitTwoImg from "../public/img/benefit-two.svg";
 
 const benefitOne = {
   title: "Listen to your customers",
-  desc: "Customer feedback fuels online success for creators. Tap into valuable insights, refine your offerings, and forge lasting connections by actively listening to your customers. Elevate your online business with the power of their voices.",
+  desc: "Only your customers can tell you what they like and what they dislike about your products and services so you can improve your offerings.",
   image: benefitOneImg,
   bullets: [
     {

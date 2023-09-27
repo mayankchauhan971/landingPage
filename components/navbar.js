@@ -35,9 +35,9 @@ const Navbar = () => {
                   </span>
                 </Link>
 
-                <Link href="https://forms.gle/R7jjao6kRLDDVWaX8" target = "_blank" className="px-6 py-2 text-center lg:hidden text-white bg-indigo-600 rounded-md lg:ml-5">         
+                {/* <Link href="https://forms.gle/R7jjao6kRLDDVWaX8" target = "_blank" className="px-6 py-2 text-center lg:hidden text-white bg-indigo-600 rounded-md lg:ml-5">         
                     Get Started
-                </Link>
+                </Link> */}
               </div>
             </>
           )}
@@ -45,9 +45,9 @@ const Navbar = () => {
 
 
         <div className="hidden mr-3 space-x-4 lg:flex nav__item">
-          <Link href="https://forms.gle/R7jjao6kRLDDVWaX8" target = "_blank" className="px-6 py-2 text-white bg-indigo-600 rounded-md md:ml-5">
+          {/* <Link href="https://forms.gle/R7jjao6kRLDDVWaX8" target = "_blank" className="px-6 py-2 text-white bg-indigo-600 rounded-md md:ml-5">
               Get Started
-          </Link>
+          </Link> */}
 
           {/* <ThemeChanger /> */}
         </div>
